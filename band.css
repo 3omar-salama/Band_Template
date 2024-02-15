@@ -8,7 +8,9 @@ body {
 }
 
 .navbar {
-  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   background-color: #000000;
 }
 
@@ -113,7 +115,20 @@ img {
   width: 100%;
 }
 
-/* h2 {
-  letter-spacing: 8px;
+.imges {
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.imges div p {
   text-align: center;
-} */
+}
+
+.imges div img {
+  text-align: center;
+  width: 270px;
+  padding: 0 60px;
+  border-radius: 5%;
+}
